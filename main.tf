@@ -19,3 +19,9 @@ resource "azurerm_resource_group" "rg" {
     location = "eastus"
   
 }
+
+resource "azurerm_resource_group" "rg1" {
+    name = "prashant_rg"
+    location = "eastus"
+  
+}
